@@ -11,7 +11,7 @@ def gen_program(n):
     s += \
          'data F\n' + \
          '  = ' + \
-         '\n  | '.join(field(i) for i in range(n-1)) + '\n' + \
+         '\n  | '.join(field(i) for i in range(n)) + '\n' + \
          '  deriving (Read)'
     return s
 
