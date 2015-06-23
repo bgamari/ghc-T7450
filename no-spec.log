@@ -1,0 +1,173 @@
+00.004735 Glasgow Haskell Compiler, Version 7.11.20150620, stage 2 booted by GHC version 7.10.1
+00.000123 Using binary package database: /opt/exp/ghc/root-ghc-7.11/lib/ghc-7.11.20150620/package.conf.d/package.cache
+00.010069 Using binary package database: /home/ben/.ghc/x86_64-linux-7.11.20150620/package.conf.d/package.cache
+00.008727 package accelerate-0.15.1.0-d7d0c3c0fb72ad13d37f79b04ce9686d is unusable due to missing or recursive dependencies:
+00.000064   array-0.5.1.0-5112b88f3cce5dff3e89ce48d970963b base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 containers-0.5.6.2-08232fdabf7f4306d79d549bd9e19b46 fclabels-2.0.2.2-76f17ba5a3346ce454e3e93fc882dd93 hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f hashtables-1.2.0.2-f459b098353884f3ce8f2a30c94f752b pretty-1.1.2.0-78c1e398dc1be00493aed3f86ddf17a1 template-haskell-2.10.0.0-f0c2b3745fbbbf276ad374e5da158c2c unordered-containers-0.2.5.1-59eac874800b8ac571722533308e2ff5
+00.000021 package base-orphans-0.3.2-45dfc9207499c9e1f35ea66eb0c1beb7 is unusable due to missing or recursive dependencies:
+00.000016   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43
+00.000011 package exceptions-0.8.0.2-7a8ecbb0cf3a93a8794faec29b5d12a9 is unusable due to missing or recursive dependencies:
+00.000011   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 mtl-2.2.1-85ad1c1c33651f42ba475abf16185bc3 stm-2.4.4-af75f12147baf4812b95ec10b55a9416 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12 transformers-compat-0.4.0.4-4a34221aee97777b476ed4e019e1f26f
+00.000010 package fclabels-2.0.2.2-76f17ba5a3346ce454e3e93fc882dd93 is unusable due to missing or recursive dependencies:
+00.000010   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 mtl-2.2.1-85ad1c1c33651f42ba475abf16185bc3 template-haskell-2.10.0.0-f0c2b3745fbbbf276ad374e5da158c2c transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000295 package hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f is unusable due to missing or recursive dependencies:
+00.000020   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 bytestring-0.10.6.0-90156c4a91c01d7fb8a12587ff2c27bf text-1.2.1.1-0968025de0a2d64a661e31e62681d78f
+00.000011 package hashtables-1.2.0.2-f459b098353884f3ce8f2a30c94f752b is unusable due to missing or recursive dependencies:
+00.000016   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f primitive-0.6-ae76c963a5399642c1cd4b4ebe03cdd7 vector-0.10.12.3-f5b48b7dd9be862eaa5886c746323320
+00.000021 package mtl-2.2.1-85ad1c1c33651f42ba475abf16185bc3 is unusable due to missing or recursive dependencies:
+00.000013   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000011 package primitive-0.6-ae76c963a5399642c1cd4b4ebe03cdd7 is unusable due to missing or recursive dependencies:
+00.000011   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000027 package text-1.2.1.1-0968025de0a2d64a661e31e62681d78f is unusable due to missing or recursive dependencies:
+00.000015   array-0.5.1.0-5112b88f3cce5dff3e89ce48d970963b base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 binary-0.7.5.0-2bb36627e4f5579a7de27df9adbd1b8a bytestring-0.10.6.0-90156c4a91c01d7fb8a12587ff2c27bf deepseq-1.4.1.1-9ca9aaae72f03d8bcbf34aecf1bb8205
+00.000011 package transformers-compat-0.4.0.4-4a34221aee97777b476ed4e019e1f26f is unusable due to missing or recursive dependencies:
+00.000010   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000012 package unordered-containers-0.2.5.1-59eac874800b8ac571722533308e2ff5 is unusable due to missing or recursive dependencies:
+00.000010   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 deepseq-1.4.1.1-9ca9aaae72f03d8bcbf34aecf1bb8205 hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f
+00.000027 package vector-0.10.12.3-f5b48b7dd9be862eaa5886c746323320 is unusable due to missing or recursive dependencies:
+00.000015   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 deepseq-1.4.1.1-9ca9aaae72f03d8bcbf34aecf1bb8205 primitive-0.6-ae76c963a5399642c1cd4b4ebe03cdd7
+00.000087 wired-in package ghc-prim mapped to ghc-prim-0.4.0.0-96ed9bb3d3f000d2dfb3e7614d9aff01
+00.000022 wired-in package integer-gmp mapped to integer-gmp-1.0.0.0-360a63871abf25a7ba34bd43325707b9
+00.000177 wired-in package base mapped to base-4.8.2.0-1827be522dff4514edd2a080953969a1
+00.000020 wired-in package rts mapped to builtin_rts
+00.000019 wired-in package template-haskell mapped to template-haskell-2.10.0.0-0503078e87acb7f4a435cb93b1f098f2
+00.000019 wired-in package ghc mapped to ghc-7.11.20150620-f7d2b1a883ed0647c97d983811b24065
+00.000017 wired-in package dph-seq not found.
+00.000016 wired-in package dph-par not found.
+00.000217 package accelerate-0.15.1.0-d7d0c3c0fb72ad13d37f79b04ce9686d is unusable due to missing or recursive dependencies:
+00.000026   array-0.5.1.0-5112b88f3cce5dff3e89ce48d970963b base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 containers-0.5.6.2-08232fdabf7f4306d79d549bd9e19b46 fclabels-2.0.2.2-76f17ba5a3346ce454e3e93fc882dd93 hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f hashtables-1.2.0.2-f459b098353884f3ce8f2a30c94f752b pretty-1.1.2.0-78c1e398dc1be00493aed3f86ddf17a1 template-haskell-2.10.0.0-f0c2b3745fbbbf276ad374e5da158c2c unordered-containers-0.2.5.1-59eac874800b8ac571722533308e2ff5
+00.000017 package base-orphans-0.3.2-45dfc9207499c9e1f35ea66eb0c1beb7 is unusable due to missing or recursive dependencies:
+00.000012   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43
+00.000063 package exceptions-0.8.0.2-7a8ecbb0cf3a93a8794faec29b5d12a9 is unusable due to missing or recursive dependencies:
+00.000018   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 mtl-2.2.1-85ad1c1c33651f42ba475abf16185bc3 stm-2.4.4-af75f12147baf4812b95ec10b55a9416 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12 transformers-compat-0.4.0.4-4a34221aee97777b476ed4e019e1f26f
+00.000039 package fclabels-2.0.2.2-76f17ba5a3346ce454e3e93fc882dd93 is unusable due to missing or recursive dependencies:
+00.000020   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 mtl-2.2.1-85ad1c1c33651f42ba475abf16185bc3 template-haskell-2.10.0.0-f0c2b3745fbbbf276ad374e5da158c2c transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000025 package hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f is unusable due to missing or recursive dependencies:
+00.000012   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 bytestring-0.10.6.0-90156c4a91c01d7fb8a12587ff2c27bf text-1.2.1.1-0968025de0a2d64a661e31e62681d78f
+00.000016 package hashtables-1.2.0.2-f459b098353884f3ce8f2a30c94f752b is unusable due to missing or recursive dependencies:
+00.000012   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f primitive-0.6-ae76c963a5399642c1cd4b4ebe03cdd7 vector-0.10.12.3-f5b48b7dd9be862eaa5886c746323320
+00.000016 package mtl-2.2.1-85ad1c1c33651f42ba475abf16185bc3 is unusable due to missing or recursive dependencies:
+00.000012   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000011 package primitive-0.6-ae76c963a5399642c1cd4b4ebe03cdd7 is unusable due to missing or recursive dependencies:
+00.000010   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000011 package text-1.2.1.1-0968025de0a2d64a661e31e62681d78f is unusable due to missing or recursive dependencies:
+00.000015   array-0.5.1.0-5112b88f3cce5dff3e89ce48d970963b base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 binary-0.7.5.0-2bb36627e4f5579a7de27df9adbd1b8a bytestring-0.10.6.0-90156c4a91c01d7fb8a12587ff2c27bf deepseq-1.4.1.1-9ca9aaae72f03d8bcbf34aecf1bb8205
+00.000013 package transformers-compat-0.4.0.4-4a34221aee97777b476ed4e019e1f26f is unusable due to missing or recursive dependencies:
+00.000011   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 transformers-0.4.2.0-826c68e990f1668cf540f2494593bb12
+00.000011 package unordered-containers-0.2.5.1-59eac874800b8ac571722533308e2ff5 is unusable due to missing or recursive dependencies:
+00.000011   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 deepseq-1.4.1.1-9ca9aaae72f03d8bcbf34aecf1bb8205 hashable-1.2.3.2-080b5f8850b9d45dd8821026e467799f
+00.000015 package vector-0.10.12.3-f5b48b7dd9be862eaa5886c746323320 is unusable due to missing or recursive dependencies:
+00.000012   base-4.8.2.0-9ddf577fd9c4eec348721a405f2bef43 deepseq-1.4.1.1-9ca9aaae72f03d8bcbf34aecf1bb8205 primitive-0.6-ae76c963a5399642c1cd4b4ebe03cdd7
+00.000041 wired-in package ghc-prim mapped to ghc-prim-0.4.0.0-96ed9bb3d3f000d2dfb3e7614d9aff01
+00.000018 wired-in package integer-gmp mapped to integer-gmp-1.0.0.0-360a63871abf25a7ba34bd43325707b9
+00.000017 wired-in package base mapped to base-4.8.2.0-1827be522dff4514edd2a080953969a1
+00.000017 wired-in package rts mapped to builtin_rts
+00.000017 wired-in package template-haskell mapped to template-haskell-2.10.0.0-0503078e87acb7f4a435cb93b1f098f2
+00.000017 wired-in package ghc mapped to ghc-7.11.20150620-f7d2b1a883ed0647c97d983811b24065
+00.000012 wired-in package dph-seq not found.
+00.000017 wired-in package dph-par not found.
+00.000094 *** Chasing dependencies:
+00.000012 Chasing modules from: *Mod.hs
+00.002173 Stable obj: []
+00.000040 Stable BCO: []
+00.000231 Ready for upsweep
+00.000020   [NONREC
+00.000018       ModSummary {
+00.000017          ms_hs_date = 2015-06-23 13:03:09.884465145 UTC
+00.000019          ms_mod = Mod,
+00.000046          ms_textual_imps = [import (implicit) Prelude]
+00.000023          ms_srcimps = []
+00.000011       }]
+00.000010 *** Deleting temp files:
+00.000026 compile: input file Mod.hs
+00.000104 Created temporary directory: /tmp/ghc7573_0
+00.000040 *** Checking old interface for Mod:
+00.047810 [1 of 1] Compiling Mod              ( Mod.hs, Mod.o )
+00.000068 *** Parser:
+00.040998 *** Renamer/typechecker:
+00.959787 *** Desugar:
+00.433730 Result size of Desugar (after optimization)
+00.000077   = {terms: 54,961, types: 31,985, coercions: 0}
+00.000020 *** Simplifier:
+00.465001 Result size of Simplifier iteration=1
+00.000081   = {terms: 62,951, types: 44,970, coercions: 0}
+00.262353 Result size of Simplifier
+00.000079   = {terms: 62,951, types: 44,970, coercions: 0}
+00.000030 *** Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = False}):
+00.000016 Result size of Float out(FOS {Lam = Just 0,
+00.000012                               Consts = True,
+00.519488                               OverSatApps = False})
+00.000079   = {terms: 116,897, types: 113,901, coercions: 0}
+00.000020 *** Simplifier:
+08.100498 Result size of Simplifier iteration=1
+00.000070   = {terms: 320,160, types: 411,586, coercions: 132,393}
+00.928447 Result size of Simplifier iteration=2
+00.000096   = {terms: 96,451, types: 69,495, coercions: 8,065}
+00.581464 Result size of Simplifier iteration=3
+00.000070   = {terms: 90,949, types: 62,996, coercions: 8,043}
+00.695011 Result size of Simplifier iteration=4
+00.000093   = {terms: 86,951, types: 57,002, coercions: 54}
+00.044748 Result size of Simplifier
+00.000095   = {terms: 86,951, types: 57,002, coercions: 54}
+00.000031 *** Simplifier:
+00.744281 Result size of Simplifier iteration=1
+00.000098   = {terms: 76,961, types: 42,017, coercions: 54}
+00.601750 Result size of Simplifier
+00.000100   = {terms: 76,961, types: 42,017, coercions: 54}
+00.000042 *** Simplifier:
+02.483240 Result size of Simplifier iteration=1
+00.000097   = {terms: 241,794, types: 180,878, coercions: 10,044}
+01.767072 Result size of Simplifier iteration=2
+00.000098   = {terms: 174,861, types: 124,934, coercions: 10,044}
+01.213765 Result size of Simplifier
+00.000079   = {terms: 174,861, types: 124,934, coercions: 10,044}
+00.000030 *** Float inwards:
+00.496586 Result size of Float inwards
+00.000074   = {terms: 174,861, types: 124,934, coercions: 10,044}
+00.000022 *** Called arity analysis:
+00.204422 Result size of Called arity analysis
+00.000083   = {terms: 174,861, types: 124,934, coercions: 10,044}
+00.000032 *** Simplifier:
+01.403306 Result size of Simplifier
+00.000088   = {terms: 174,861, types: 124,934, coercions: 10,044}
+00.000033 *** Demand analysis:
+01.187935 Result size of Demand analysis
+00.000073   = {terms: 174,861, types: 124,934, coercions: 10,044}
+00.000021 *** Worker Wrapper binds:
+00.146575 Result size of Worker Wrapper binds
+00.000097   = {terms: 174,879, types: 124,956, coercions: 10,044}
+00.000047 *** Simplifier:
+01.508857 Result size of Simplifier iteration=1
+00.000096   = {terms: 174,868, types: 124,947, coercions: 10,044}
+01.457543 Result size of Simplifier
+00.000098   = {terms: 174,868, types: 124,947, coercions: 10,044}
+00.000033 *** Float out(FOS {Lam = Just 0, Consts = True, OverSatApps = True}):
+00.000032 Result size of Float out(FOS {Lam = Just 0,
+00.000021                               Consts = True,
+02.008799                               OverSatApps = True})
+00.000107   = {terms: 174,868, types: 124,947, coercions: 10,044}
+00.000034 *** Common sub-expression:
+00.486832 Result size of Common sub-expression
+00.000070   = {terms: 171,874, types: 124,947, coercions: 10,044}
+00.000023 *** Float inwards:
+00.376726 Result size of Float inwards
+00.000075   = {terms: 171,874, types: 124,947, coercions: 10,044}
+00.000020 *** Simplifier:
+01.604052 Result size of Simplifier
+00.000070   = {terms: 165,886, types: 118,959, coercions: 10,044}
+00.000023 *** Tidy Core:
+00.668029 Result size of Tidy Core
+00.000070   = {terms: 165,886, types: 118,959, coercions: 10,044}
+00.068296 *** CorePrep:
+00.948866 Result size of CorePrep
+00.000066   = {terms: 192,870, types: 149,938, coercions: 10,044}
+00.000022 *** Stg2Stg:
+00.000014 *** CodeGen:
+19.367870 *** Assembler:
+01.160230 Upsweep completely successful.
+00.000104 *** Deleting temp files:
+00.000027 Warning: deleting non-existent /tmp/ghc7573_0/ghc_3.c
+00.002097 Warning: deleting non-existent /tmp/ghc7573_0/ghc_1.s
+00.000050 *** Deleting temp files:
+00.000024 *** Deleting temp dirs:
+00.074009 52.22user 0.85system 0:53.10elapsed 99%CPU (0avgtext+0avgdata 1780324maxresident)k
+00.000073 0inputs+60000outputs (0major+563930minor)pagefaults 0swaps
