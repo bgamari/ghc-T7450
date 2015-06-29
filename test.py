@@ -15,13 +15,14 @@ def gen_program(n):
          '  deriving (Read)'
     return s
 
-if True:
+if False:
     with open('Mod.hs', 'w') as f:
         f.write(gen_program(int(sys.argv[1])))
 else:
-    for n in range(2, 13):
+    for i in range(2, 13):
+        n = int(2**i)
         with open('Mod.hs', 'w') as f:
-            f.write(gen_program(2**n))
+            f.write(gen_program(n))
 
         for i in range(4):
             start = time()
